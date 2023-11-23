@@ -229,18 +229,32 @@ text-decoration: underline;
 .snippet__meta{
   grid-area: meta;
   color: var(--clr-neutral-300);
+  font-size: var(--fs-300);
 }
 
 .snippet__meta span{
   font-weight: var(--fw-700);
   color: var(--clr-neutral-900);
 }
+
 .snippet .btn{
   grid-area: button;
 }
 
 .snippet__body {
   grid-area: body;
+}
+
+/* Individual Article Page
+*********** */
+.main-article{
+  margin-bottom: 3rem;
+}
+
+.main-article__figure figcaption {
+  margin: 1rem 0;
+  font-size: var(--fs-300);
+  opacity: .9;
 }
 
 /* ******** */
@@ -256,26 +270,26 @@ text-decoration: underline;
  /* ******** */
 
  /* -----MEDIA QUERIES----- */
- @media (min-width: 45em) {
-  :root {
-    --fs-300: 1rem;
-    --fs-400: 1.125rem;
-    --fs-500: 1.5rem;
-    --fs-600: 2.125rem;
-    --fs-700: 2.875rem;
-  }
+@media (min-width: 45em) {
+:root {
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.5rem;
+  --fs-600: 2.125rem;
+  --fs-700: 2.875rem;
+}
 
-  .hero > div{
-    grid-auto-flow: column;
-  }
+.hero > div{
+  grid-auto-flow: column;
+}
 
-  .snippet{
-    grid-template-areas:
-      "title image"
-      "meta image"
-      "body image"
-      "button image"
-    ;
+.snippet{
+  grid-template-areas:
+    "title image"
+    "meta image"
+    "body image"
+    "button image"
+  ;
     gap: 1em 4em;
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content 1fr;
