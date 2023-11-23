@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Blog Site</title>
   </head>
   <body>
     <!-- __________________ -->
     <!--       HEADER       -->
     <!-- ****************** -->
-    <header>
+    <header class="page-header">
       <div class="container">
         <div class="page-header__content">
           <div id="logo">
@@ -27,7 +29,8 @@
           </div>
           <!-- navigation -->
           <nav>
-            <ul class="nav-list">
+            console.log()
+            <ul role="list" class="nav-list flex-group">
               <li><a href="/">Home</a></li>
               <li><a href="/blog">Blog</a></li>
             </ul>
@@ -43,8 +46,8 @@
     <main>
       <!-- hero -->
       <section class="hero">
-        <div class="container">
-          <div class="hero__content">
+        <div class="container flow">
+          <div class="hero__content flow">
             <h1 class="section-title">Welcome To My Cat Blog!</h1>
             <p>This is a place of kitty tales, a perfect fit for cat lovers.</p>
             <p>
@@ -68,11 +71,11 @@
         </div>
       </section>
       <!-- featured articles -->
-      <section class="featured-articles">
-        <div class="container">
+      <section id="featured-articles" class="featured-articles">
+        <div class="container flow">
           <h2 class="section-title">Featured Articles</h2>
           <p>Here are some sample articles of kitty mayhem.</p>
-          <ul class="articles__list">
+          <ul role="list" class="articles__list flow">
             <li>
               <article class="snippet">
                 <img
