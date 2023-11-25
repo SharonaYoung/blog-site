@@ -2,7 +2,7 @@
 title: First Article
 author: Sharona Young
 date: 2023-09-30
-tags: ["post", "featured"]
+tags: post
 image: /assets/blog/article-1.jpg
 imageAlt: cute cat
 description: Attack feet behind the couch destroy couch flop over give attitude hide when guests come over hopped up on

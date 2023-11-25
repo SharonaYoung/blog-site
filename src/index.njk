@@ -16,7 +16,7 @@ layout: 'base.njk'
         <a href="#featured-articles" class="btn btn--primary"
           >Featured Articles</a
         >
-        <a href="./blog.html" class="btn btn--neutral">Recent Articles</a>
+        <a href="./blog" class="btn btn--neutral">Recent Articles</a>
       </div>
     </div>
     <div>
@@ -34,72 +34,9 @@ layout: 'base.njk'
     <h2 class="section-title">Featured Articles</h2>
     <p>Here are some sample articles of kitty mayhem.</p>
     <ul role="list" class="articles__list flow">
-      <li>
-        <article class="snippet">
-          <img
-            src="assets/blog/article-1.jpg"
-            alt="grey cat"
-            class="snippet__image"
-          />
-          <h3 class="snippet__title">
-            <a href="/blog/first-article">First Article</a>
-          </h3>
-          <p class="snippet__meta">
-            by <span>Sharona Young</span> on <span>Sep 30, 2023</span>
-          </p>
-          <p class="snippet__body">
-            Attack feet behind the couch destroy couch flop over give attitude hide when guests come over hopped up on
-          </p>
-          <a href="/blog/first-article/" class="btn btn--primary"
-            >Read More</a
-          >
-        </article>
-      </li>
-      <li>
-        <article class="snippet">
-          <img
-            src="assets/blog/article-2.jpg"
-            alt="orange cat"
-            class="snippet__image"
-          />
-          <h3 class="snippet__title">
-            <a href="/blog/second-article">Second Article</a>
-          </h3>
-          <p class="snippet__meta">
-            by <span>Sharona Young</span> on <span>Sep 25, 2023</span>
-          </p>
-          <p class="snippet__body">
-            Hide when guests come over behind the couch inspect anything
-            brought into the house lick butt give attitude
-          </p>
-          <a href="/blog/second-article/" class="btn btn--primary"
-            >Read More</a
-          >
-        </article>
-      </li>
-      <li>
-        <article class="snippet">
-          <img
-            src="assets/blog/article-3.jpg"
-            alt="cat in tree"
-            class="snippet__image"
-          />
-          <h3 class="snippet__title">
-            <a href="/blog/third-article">Third Article</a>
-          </h3>
-          <p class="snippet__meta">
-            by <span>Sharona Young</span> on <span>Sep 20, 2023</span>
-          </p>
-          <p class="snippet__body">
-            Hunt anything that moves behind the couch shake treat sweet
-            beast under the bed lick butt chase imaginary bugs inspect
-            anything brought into
-          </p>
-          <a href="/blog/third-article/" class="btn btn--primary"
-            >Read More</a
-          >
-        </article>
-      </li>
+      {%- for post in collections.featured | reverse -%}
+       {% include 'article-snippet.njk' %}
+      {%- endfor %}
     </ul>
   </div>
 </section>
