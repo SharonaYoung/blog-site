@@ -80,7 +80,7 @@ ______________________ */
   gap: var(--gap, .625em);
 }
 
-.text-center {
+.txt-ctr {
   text-align: center;
 }
 
