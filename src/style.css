@@ -244,7 +244,7 @@ ______________________ */
 
 .snippet__meta span {
   font-weight: var(--fw-700);
-  color: var(--clr-neutral-900);
+  color: var(--clr-primary-300);
 }
 
 .snippet .btn {
