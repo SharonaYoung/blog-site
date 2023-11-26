@@ -3,15 +3,15 @@ title: Blog
 layout: 'base.njk'
 ---
 
-<div class="section container">
-  <h1 class="section-title">Recent Articles</h1>
+<section class="container">
+  <h1 class="section-title txt-ctr">Recent Articles</h1>
 
   <ul role="list" class="articles__list flow">
     {%- for post in collections.post | reverse -%}
       {% include 'article-snippet.njk' %}
     {%- endfor %}
   </ul>
-</div>
+</section>
 
 {# <div class="section container">
   <h1 class="section-title">Recent Articles</h1>
