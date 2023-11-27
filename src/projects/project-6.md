@@ -4,8 +4,8 @@ tags: projects
 image: /assets/project_Img/proj-6.jpg
 imageAlt: "screenshot of project"
 tech:
-  - "figma,"
-  - "photoshop,"
+  - "figma"
+  - "photoshop"
   - "illustrator"
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
 ---

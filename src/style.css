@@ -54,6 +54,12 @@ section {
   padding: min(10vh, 8em) 0;
 }
 
+img:where(:not(.logo-img)) {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 /* -------------------
   Utility Classes
 ______________________ */
@@ -269,6 +275,36 @@ ______________________ */
 }
 
 /* ******** */
+
+/* Project
+*********** */
+.tech-tags {
+  font-size: var(--fs-300);
+  color: var(--clr-primary-400);
+  margin: 0;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.project__image {
+  aspect-ratio: 3/2;
+}
+
+.project-card__body {
+  padding: 1rem;
+}
+
+/* ******** */
+
 /* Footer
 *********** */
 .site__footer {
@@ -278,7 +314,6 @@ ______________________ */
   align-items: center;
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
-
 }
 
 /* ******** */
