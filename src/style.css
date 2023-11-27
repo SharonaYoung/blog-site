@@ -198,9 +198,10 @@ ______________________ */
 
 }
 
-.articles__list {
+.articles__list,
+.projects__list {
   --flow-spacer: 3rem;
-  margin: 6rem 0;
+  margin: 5rem 0;
 }
 
 /* ********* */
@@ -264,7 +265,8 @@ ______________________ */
 
 /* Individual Article Page
 *********** */
-.main-article {
+.main-article,
+.project {
   margin-bottom: 3rem;
 }
 
