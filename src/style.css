@@ -278,9 +278,7 @@ ______________________ */
   align-items: center;
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+
 }
 
 /* ******** */

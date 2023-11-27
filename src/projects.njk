@@ -1,0 +1,13 @@
+---
+title: Projects
+layout: 'base.njk'
+---
+
+<section class="container">
+  <h2 class="section-title">Recent Projects</h2>
+  <ul role="list" class="articles__list flow">
+    {% for project in collections.projects %}
+      {% include "project-card.njk" %}
+    {%- endfor -%}
+  </ul>
+</section>

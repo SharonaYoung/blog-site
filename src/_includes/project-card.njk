@@ -1,0 +1,14 @@
+<article class="project-card">
+<div class="container">
+  <div class="project-card__image-wrapper">
+    <img class="project__image" src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
+  </div>
+  <div class="project-card__body">
+    <h3 class="project-card__title">
+      <a href="{{ project.url }}">{{ project.data.title }}</a>
+    </h3>
+    <p class="project-card__summary">{{ project.data.summary }}</p>
+    <a class="project-card__link" href="{{ project.url }}" class="btn btn--primary">case study</a>
+  </div>
+</div>
+</article>
