@@ -26,8 +26,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Tech", name: "tech", widget: "string" }
-      # - { label: "Tags", name: "tags", widget: "list", default: ["project"] }
+      - { label: "Tech", name: "tech", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["project"] }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Summary", name: "summary", widget: "string" }
