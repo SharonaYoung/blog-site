@@ -26,9 +26,9 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Tech", name: "tech", widget: "list", default: ["figma"] }
-      - { label: "Tags", name: "tags", widget: "list", default: ["project"] }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      # - { label: "Tech", name: "tech", widget: "list", default: ["figma"] }
+      # - { label: "Tags", name: "tags", widget: "list", default: ["project"] }
+      # - { label: "Featured Image", name: "image", widget: "image" }
+      # - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      # - { label: "Summary", name: "summary", widget: "string" }
+      # - { label: "Body", name: "body", widget: "markdown" }
