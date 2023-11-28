@@ -3,9 +3,7 @@ title: Project 1
 tags: projects
 image: /assets/project_Img/proj-1.jpg
 imageAlt: "screenshot of project"
-tech:
-  - "html"
-  - "css"
+tech: ["html", "css"]
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
 ---
 

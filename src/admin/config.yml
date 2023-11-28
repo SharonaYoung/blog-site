@@ -25,3 +25,5 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }

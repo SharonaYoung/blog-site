@@ -2,7 +2,7 @@
 title: Third Article
 author: Sharona Young
 date: 2023-09-30
-tags: post
+tags: ["post"]
 image: /assets/blog/article-3.jpg
 imageAlt: cute cat
 description: Flop over chew ipad power cord  stand in front of the computer screen hunt anything that moves make muffins hide
