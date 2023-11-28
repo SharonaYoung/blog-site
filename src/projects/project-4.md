@@ -1,13 +1,9 @@
 ---
 title: Project 4
-tags: projects
+tags: ["projects"]
 image: /assets/project_Img/proj-4.jpg
 imageAlt: "screenshot of project"
-tech:
-  - "figma"
-  - "html"
-  - "css"
-  - "javascript"
+tech: ["figma", "html", "css", "javascript"]
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
 ---
 

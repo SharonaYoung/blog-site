@@ -1,12 +1,9 @@
 ---
 title: Project 3
-tags: projects
+tags: ["projects"]
 image: /assets/project_Img/proj-3.jpg
 imageAlt: "screenshot of project"
-tech:
-  - "photoshop"
-  - "figma"
-  - "illustrator"
+tech: ["photoshop", "figma", "illustrator"]
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
 ---
 
