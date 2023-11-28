@@ -3,10 +3,7 @@ title: Project 2
 tags: projects
 image: /assets/project_Img/rps.gif
 imageAlt: "screenshot of project"
-tech:
-  - "html"
-  - "css"
-  - "javascript"
+tech: ["html", "css", "javascript"]
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
 ---
 
