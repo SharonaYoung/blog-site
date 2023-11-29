@@ -77,7 +77,7 @@ ______________________ */
 }
 
 .container--narrow {
-  max-width: 65rem;
+  max-width: 45em;
 }
 
 .flex-group {
@@ -144,6 +144,11 @@ ______________________ */
 
 .section-title {
   font-size: var(--fs-600);
+}
+
+.featured-articles .container p,
+.featured-projects .container p{
+  margin: 0;
 }
 
 /* ---------------- */

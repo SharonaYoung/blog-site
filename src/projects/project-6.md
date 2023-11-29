@@ -1,6 +1,6 @@
 ---
 title: Project 6
-tags: ["projects", "featured"]
+tags: ["projects"]
 image: /assets/project_Img/proj-6.jpg
 imageAlt: "screenshot of project"
 tech: ["figma", "photoshop", "illustrator"]
