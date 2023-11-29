@@ -206,7 +206,12 @@ ______________________ */
 .articles__list,
 .projects__list {
   --flow-spacer: 3rem;
-  margin: 5rem 0;
+}
+
+.projects__view-btn{
+  margin-top: 3rem;
+  display: grid;
+  justify-content: center;
 }
 
 /* ********* */
@@ -270,8 +275,7 @@ ______________________ */
 
 /* Individual Article Page
 *********** */
-.main-article,
-.project {
+.main-article {
   margin-bottom: 3rem;
 }
 
@@ -294,7 +298,7 @@ ______________________ */
 .projects__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
+  gap: 1.625rem;
 }
 
 .project-card {
