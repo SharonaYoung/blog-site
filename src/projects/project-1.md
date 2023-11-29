@@ -1,6 +1,6 @@
 ---
 title: Project 1
-tags: ["projects"]
+tags: ["projects", "featured"]
 image: /assets/project_Img/proj-1.jpg
 imageAlt: "screenshot of project"
 tech: ["html", "css"]

@@ -40,5 +40,15 @@ layout: 'base.njk'
     </ul>
   </div>
 </section>
-
 <!-- past projects -->
+<section id="featured-projects" class="featured-projects">
+  <div class="container flow">
+    <h2 class="section-title txt-ctr">Recent Projects</h2>
+    <p>Most recent client projects</p>
+    <ul role="list" class="projects__list">
+      {% for project in collections.projects.featured %}
+        {% include "project-card.njk" %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
