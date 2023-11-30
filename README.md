@@ -3,8 +3,9 @@ Find the project requirements here: [Create a fast and secure blog using JAMStac
 
 ## Tech/framework used
 Built with:
-*html
-*css
+* html
+* css
+* javascript
 
 # blog-site
 Blog website template using JAM stack
@@ -15,11 +16,12 @@ This project is from DevProjects by codementor.
 ## Features
 List of features:
 
-* 11ty for static site generator
 * A home page
 * A blog page
-* An About page
+* Projects page
 * Individual page for every article
+* Individual page for each project
+* 11ty for static site generator
 * Netlify CMS
 * Nunjucks templating
 
